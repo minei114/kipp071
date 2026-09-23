@@ -1,25 +1,47 @@
 ---
 title: "Five-Language Translation Portfolio"
 week: 4
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "18/20"
 assessor_score: "—"
 description: "Satu meaning untuk lima person atau character."
 categories: [Fondasi, Language]
 ---
 
-## Kompetensi target
+## Core meaning
 
-Mengadaptasi repertoire dan language tanpa mengubah core meaning.
+**Fakta yang tidak boleh berubah:** kamar di depan kamar saya beberapa kali berisik dari malam sampai dini hari, sehingga mengganggu waktu tidur saya. Pada salah satu malam, saya perlu bangun sekitar pukul 03.00 untuk mempersiapkan diri dan berangkat ke Jatinangor sekitar pukul 04.00 untuk kegiatan kepanitiaan OSKM ITB 2026. Karena suara masih berlanjut, saya akhirnya tidak tidur sampai kegiatan selesai. Setelah saya menyampaikan masalah tersebut kepada ibu kos, kamar tersebut tidak lagi berisik pada malam-malam berikutnya.
 
-## Evidence wajib
+| Target/character | Versi language | Alasan adaptasi |
+|---|---|---|
+| **Friend** | “Kak, maaf ya, boleh tolong dikecilin suaranya kalau udah malam? Aku beberapa kali susah tidur karena kedengeran sampai kamar. Kemarin aku juga harus bangun jam 3 buat persiapan panitia.” | Lebih personal dan sopan karena disampaikan langsung kepada orang yang tidak terlalu dikenal, sekaligus menjelaskan dampaknya tanpa menyalahkan. |
+| **Technical peer** | “Kak, kalau sudah malam boleh tolong lebih diperhatikan volumenya? Suaranya cukup terdengar sampai kamar sebelah dan beberapa kali mengganggu waktu tidur. Kemarin saya harus bangun sekitar jam 3 untuk kegiatan di Jatinangor.” | Informasi dibuat lebih spesifik pada masalah, waktu, dan dampaknya supaya tidak terdengar seperti sekadar keluhan pribadi. |
+| **Manager** | “Bu, saya mau menyampaikan soal kamar di depan kamar saya yang beberapa kali cukup berisik sampai malam dan dini hari. Kemarin saya harus bangun jam 3 untuk persiapan kegiatan panitia di Jatinangor, tetapi akhirnya tidak bisa tidur karena masih terdengar suara. Kalau memungkinkan, mohon dibantu diingatkan untuk menjaga suara pada malam hari.” | Menjelaskan masalah, dampak, dan permintaan secara langsung karena target memiliki peran untuk membantu menyelesaikan masalah. |
+| **Customer/student user** | “Kalau suara dari kamar masih cukup terdengar sampai malam, mungkin bisa dikurangi volumenya ya. Saya beberapa kali jadi kesulitan tidur karena suara tersebut, terutama ketika harus bangun pagi untuk kegiatan.” | Fokus pada pengalaman dan kebutuhan penghuni yang terdampak tanpa menggunakan bahasa yang menyudutkan. |
+| **Public** | “Teman-teman, mohon bantuannya untuk menjaga volume suara terutama pada malam sampai dini hari agar tidak mengganggu penghuni kamar lain yang sedang beristirahat. Terima kasih.” | Dibuat umum dan tidak menyebut kamar atau orang tertentu karena ditujukan kepada seluruh penghuni kos. |
 
-- Lima versi untuk friend, technical peer, manager, customer, dan public.
-- Alasan perubahan language dan repertoire.
-- Feedback understanding dari sedikitnya satu target.
+## Evidence understanding
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 4](../examples/week-04.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+Pada malam tersebut, saya sempat mencoba menyampaikan secara langsung dari depan kamar agar suara tidak terlalu berisik, tetapi karena suara masih berlanjut, saya kemudian menghubungi ibu kos untuk menyampaikan masalah tersebut dan meminta agar penghuni kamar tersebut diingatkan.
 
-{{< include ../includes/evidence-template.md >}}
+Setelah itu, pada malam-malam berikutnya kamar tersebut sudah tidak lagi berisik seperti sebelumnya. Saya tidak mengetahui secara pasti apa yang disampaikan ibu kos kepada penghuni kamar, tetapi perubahan tersebut menjadi evidence bahwa masalah yang saya sampaikan sudah diterima dan ditindaklanjuti.
+
+## Analisis dan batas
+
+Repertoire berubah sesuai dengan target. Kepada penghuni kamar, saya menggunakan bahasa yang lebih personal dan tidak langsung menuduh. Kepada ibu kos, saya menjelaskan kronologi, dampak, dan tindakan yang saya harapkan. Untuk public, saya menghilangkan detail kejadian pribadi dan nama atau kamar tertentu karena pesan ditujukan kepada semua penghuni.
+
+Core meaning tetap sama, yaitu adanya suara yang mengganggu waktu istirahat pada malam hingga dini hari dan perlunya menjaga volume agar tidak mengganggu penghuni lain.
+
+AI digunakan untuk membantu memeriksa apakah setiap versi masih mempertahankan fakta utama dan tidak menambahkan alasan yang tidak saya alami. Saya tetap menyesuaikan hasilnya dengan kejadian sebenarnya, terutama bagian bahwa saya tidak mengetahui secara pasti bagaimana ibu kos menegur penghuni kamar tersebut.
+
+## Self-assessment
+
+| Dimensi | Skor | Evidence singkat |
+|---|---:|---|
+| Person & Character | 4 | Lima target dibedakan berdasarkan hubungan dan kebutuhan informasi masing-masing. |
+| Objective & State | 4 | Core meaning, masalah, dampak, dan permintaan tetap konsisten di setiap versi. |
+| Repertoire, Language & AI | 4 | Bahasa diubah dari personal, penjelasan masalah, permintaan kepada pengelola, hingga pengumuman umum. |
+| Response & Adaptation | 3 | Perubahan perilaku setelah laporan kepada ibu kos menjadi evidence bahwa masalah tersampaikan. |
+| Agreement, Action & Relationship | 3 | Pesan mempertimbangkan hubungan dengan penghuni kamar dan menghindari bahasa yang menyudutkan. |
+
+**Total: 18/20**
