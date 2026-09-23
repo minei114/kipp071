@@ -25,6 +25,17 @@ title: "Lembar Kerja Bab 02"
 
 ## **Bagian 2: Membedah Tiga Narasi**
 
+```text
++---------------------------------------------------------------------------------+
+|                                 TIGA KACAMATA                                   |
+|                                                                                 |
+|  1. NARASI KORBAN          2. NARASI ANALITIS          3. NARASI PERTUMBUHAN    |
+|  "Semua kendali di luar    "Membedah fakta,            "Mengakui kesulitan,     |
+|  diri saya, saya lumpuh    asumsi, dan hal yang        menemukan pelajaran,     |
+|  tanpa pilihan tindakan."  bisa saya kendalikan."      dan bertindak."          |
++---------------------------------------------------------------------------------+
+```
+
 ### **Versi A: Narasi Korban (Victim Narrative)**
 
 * **Isi Narasi Korban Anda:** Saya memang orangnya pemalu dan dari dulu tidak terbiasa ikut banyak kegiatan. Kalau saya mencoba masuk ke lingkungan baru, saya pasti akan merasa aneh dan mungkin orang lain juga akan melihat saya sebagai orang yang sok. Saya tidak bisa banyak berbuat karena saya memang seperti ini.
