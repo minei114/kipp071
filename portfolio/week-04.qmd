@@ -45,4 +45,3 @@ AI digunakan untuk membantu memeriksa apakah setiap versi masih mempertahankan f
 | Agreement, Action & Relationship | 4 | Saya menyampaikan masalah secara langsung, meminta bantuan saat cara pertama belum berhasil, dan tetap menjaga hubungan dengan tidak menyudutkan pihak tertentu. |
 
 **Total: 19/20**
-```
