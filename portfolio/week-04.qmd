@@ -1,4 +1,3 @@
-```qmd
 ---
 title: "Five-Language Translation Portfolio"
 week: 4
