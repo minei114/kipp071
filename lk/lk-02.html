@@ -76,35 +76,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -185,7 +156,6 @@ window.Quarto = {
   <ul>
   <li><a href="#lembar-kerja-praktis-tiga-narasi-atas-satu-peristiwa" id="toc-lembar-kerja-praktis-tiga-narasi-atas-satu-peristiwa" class="nav-link active" data-scroll-target="#lembar-kerja-praktis-tiga-narasi-atas-satu-peristiwa">Lembar Kerja Praktis: Tiga Narasi atas Satu Peristiwa</a>
   <ul class="collapse">
-  <li><a href="#siklus-pemikiran-dari-rangsangan-menuju-respons" id="toc-siklus-pemikiran-dari-rangsangan-menuju-respons" class="nav-link" data-scroll-target="#siklus-pemikiran-dari-rangsangan-menuju-respons"><strong>Siklus Pemikiran: Dari Rangsangan Menuju Respons</strong></a></li>
   <li><a href="#bagian-1-identifikasi-kasus-bahan-mentah" id="toc-bagian-1-identifikasi-kasus-bahan-mentah" class="nav-link" data-scroll-target="#bagian-1-identifikasi-kasus-bahan-mentah"><strong>Bagian 1: Identifikasi Kasus (Bahan Mentah)</strong></a>
   <ul class="collapse">
   <li><a href="#peristiwa-yang-dapat-diamati-fakta-objektif" id="toc-peristiwa-yang-dapat-diamati-fakta-objektif" class="nav-link" data-scroll-target="#peristiwa-yang-dapat-diamati-fakta-objektif"><strong>1. Peristiwa yang Dapat Diamati (Fakta Objektif)</strong></a></li>
@@ -233,53 +203,52 @@ window.Quarto = {
 <section id="lembar-kerja-praktis-tiga-narasi-atas-satu-peristiwa" class="level1">
 <h1>Lembar Kerja Praktis: Tiga Narasi atas Satu Peristiwa</h1>
 <p><em>(Bahan Aktivitas Mandiri &amp; Portofolio Kuliah 2: Percakapan dengan Diri Sendiri)</em></p>
-<p>Lembar kerja ini dirancang untuk melatih kemampuan <strong>kejernihan batin (intrapersonal communication)</strong> Anda. Tujuannya adalah membantu Anda memisahkan fakta objektif dari cerita batin, mengenali emosi, dan merumuskan respons yang disengaja (<em>chosen response</em>) alih-alih bereaksi secara otomatis (<em>autopilot</em>) atas peristiwa sulit dalam kehidupan sehari-hari [10, 13].</p>
-<hr>
-<section id="siklus-pemikiran-dari-rangsangan-menuju-respons" class="level2">
-<h2 class="anchored" data-anchor-id="siklus-pemikiran-dari-rangsangan-menuju-respons"><strong>Siklus Pemikiran: Dari Rangsangan Menuju Respons</strong></h2>
-<p>Sebelum mengisi lembar kerja, ingatlah alur pembentukan makna batin berikut [13]: <span class="math display">\[\text{Peristiwa (Fakta)} \longrightarrow \text{Interpretasi (Asumsi)} \longrightarrow \text{Narasi (Identitas)} \longrightarrow \text{Emosi} \longrightarrow \text{Pilihan} \longrightarrow \text{Tindakan}\]</span></p>
-<hr>
-</section>
 <section id="bagian-1-identifikasi-kasus-bahan-mentah" class="level2">
 <h2 class="anchored" data-anchor-id="bagian-1-identifikasi-kasus-bahan-mentah"><strong>Bagian 1: Identifikasi Kasus (Bahan Mentah)</strong></h2>
-<p>Pilihlah satu peristiwa sulit, menantang, atau kurang menyenangkan yang baru-baru ini Anda alami (misalnya: pesan tidak dibalas, kritik dari dosen, tugas kelompok terhambat, atau rencana yang batal) [11, 13]. <em>Catatan Etis: Pilih kasus yang cukup aman untuk dipelajari secara akademis. Jangan memilih situasi kekerasan atau trauma berat yang membutuhkan bantuan profesional [13].</em></p>
 <section id="peristiwa-yang-dapat-diamati-fakta-objektif" class="level3">
 <h3 class="anchored" data-anchor-id="peristiwa-yang-dapat-diamati-fakta-objektif"><strong>1. Peristiwa yang Dapat Diamati (Fakta Objektif)</strong></h3>
-<p><em>Tuliskan apa yang benar-benar terjadi tanpa penilaian karakter, generalisasi (hindari kata “selalu” atau “pasti”), atau dugaan niat. Bayangkan apa yang terekam oleh kamera video [13, 145].</em> &gt; <strong>Contoh Kurang Tepat:</strong> <em>“Rekan kelompok saya malas dan sengaja mengabaikan tugas kelompok.”</em><br>
-&gt; <strong>Contoh Tepat:</strong> <em>“Dua tugas yang disepakati di WhatsApp grup belum dikirimkan oleh Rekan X hingga batas waktu tanggal 30 Agustus pukul 23.59.”</em> * <strong>Tuliskan Fakta Anda di sini:</strong> __________________________________________________________________________________________</p>
+<ul>
+<li><strong>Tuliskan Fakta Anda di sini:</strong> Saat SMA, saya cenderung menghindari kegiatan baru karena merasa malu dan takut dinilai orang lain. Setelah masuk ITB, saya mulai menemukan banyak kesempatan untuk mengikuti UKM, organisasi, dan kepanitiaan. Sebelum mendaftar atau mengikuti kegiatan tersebut, saya beberapa kali berpikir apakah saya akan terlihat sok, tidak cocok, atau dinilai aneh oleh orang lain.</li>
+</ul>
 </section>
 <section id="interpretasi-pertama-asumsi-otomatis" class="level3">
 <h3 class="anchored" data-anchor-id="interpretasi-pertama-asumsi-otomatis"><strong>2. Interpretasi Pertama (Asumsi Otomatis)</strong></h3>
-<p><em>Tuliskan pemikiran atau kesimpulan pertama yang langsung melompat di kepala Anda ketika peristiwa itu terjadi [13, 145].</em> * <strong>Tuliskan Interpretasi Pertama Anda di sini:</strong> __________________________________________________________________________________________</p>
+<ul>
+<li><strong>Tuliskan Interpretasi Pertama Anda di sini:</strong> Kalau saya ikut kegiatan tersebut, orang lain mungkin akan menganggap saya sok atau aneh. Saya juga merasa mungkin saya tidak akan cocok dengan lingkungan tersebut.</li>
+</ul>
 </section>
 <section id="emosi-sensasi-tubuh" class="level3">
 <h3 class="anchored" data-anchor-id="emosi-sensasi-tubuh"><strong>3. Emosi &amp; Sensasi Tubuh</strong></h3>
-<p><em>Identifikasi emosi konkret yang Anda rasakan (marah, cemas, malu, kecewa, sedih) dan tandai intensitasnya dari skala 0–10. Catat juga reaksi fisik yang Anda rasakan (napas pendek, rahang menegang, dada sesak) [13, 147].</em> * <strong>Emosi yang Dirasakan (dan skala 0-10):</strong> _______________________________________________ * <strong>Sensasi Tubuh yang Muncul:</strong> ___________________________________________________________</p>
+<ul>
+<li><strong>Emosi yang Dirasakan (dan skala 0-10):</strong> Ragu (7/10), malu (6/10), dan canggung (6/10).</li>
+<li><strong>Sensasi Tubuh yang Muncul:</strong> Badan terasa tegang dan sulit merasa rileks ketika harus memutuskan apakah akan ikut atau tidak.</li>
+</ul>
 <hr>
 </section>
 </section>
 <section id="bagian-2-membedah-tiga-narasi" class="level2">
 <h2 class="anchored" data-anchor-id="bagian-2-membedah-tiga-narasi"><strong>Bagian 2: Membedah Tiga Narasi</strong></h2>
-<p>Kini, mari kita bawa peristiwa di atas ke dalam tiga kacamata cerita batin yang berbeda untuk melihat bagaimana narasi tersebut mengarahkan pilihan hidup Anda [13, 157].</p>
-<pre><code>+---------------------------------------------------------------------------------+
-|                                 TIGA KACAMATA                                   |
-|                                                                                 |
-|  1. NARASI KORBAN          2. NARASI ANALITIS          3. NARASI PERTUMBUHAN    |
-|  "Semua kendali di luar    "Membedah fakta,            "Mengakui kesulitan,     |
-|  diri saya, saya lumpuh    asumsi, dan hal yang        menemukan pelajaran,     |
-|  tanpa pilihan tindakan."  bisa saya kendalikan."      dan bertindak."          |
-+---------------------------------------------------------------------------------+</code></pre>
 <section id="versi-a-narasi-korban-victim-narrative" class="level3">
 <h3 class="anchored" data-anchor-id="versi-a-narasi-korban-victim-narrative"><strong>Versi A: Narasi Korban (Victim Narrative)</strong></h3>
-<p><em>Tempatkan diri Anda sepenuhnya sebagai korban keadaan. Tuliskan narasi di mana semua kendali berada di luar diri Anda, orang lain sepenuhnya bersalah, dan Anda tidak memiliki pilihan selain pasrah, menyalahkan diri sendiri, atau membalas secara pasif [13, 157].</em> * <strong>Isi Narasi Korban Anda:</strong> __________________________________________________________________________________________ __________________________________________________________________________________________ * <strong>Pilihan Tindakan Otomatis (Reaktif) dari Narasi ini:</strong> <em>(Contoh: mendiamkan balik, keluar grup proyek tanpa kabar, atau mengeluh di media sosial)</em> __________________________________________________________________________________________</p>
+<ul>
+<li><p><strong>Isi Narasi Korban Anda:</strong> Saya memang orangnya pemalu dan dari dulu tidak terbiasa ikut banyak kegiatan. Kalau saya mencoba masuk ke lingkungan baru, saya pasti akan merasa aneh dan mungkin orang lain juga akan melihat saya sebagai orang yang sok. Saya tidak bisa banyak berbuat karena saya memang seperti ini.</p></li>
+<li><p><strong>Pilihan Tindakan Otomatis (Reaktif) dari Narasi ini:</strong> Saya akan memilih untuk tidak mendaftar atau menghindari kesempatan tersebut supaya tidak perlu menghadapi rasa malu dan kemungkinan dinilai orang lain.</p></li>
+</ul>
 </section>
 <section id="versi-b-narasi-analitis-analytical-narrative" class="level3">
 <h3 class="anchored" data-anchor-id="versi-b-narasi-analitis-analytical-narrative"><strong>Versi B: Narasi Analitis (Analytical Narrative)</strong></h3>
-<p><em>Gunakan kacamata yang objektif dan rasional. Pisahkan dengan tegas antara fakta yang diketahui, hal-hal yang masih berupa dugaan (belum diketahui), serta faktor-faktor yang berada di bawah kendali Anda langsung [13, 157, 158].</em> * <strong>Apa fakta yang benar-benar telah terbukti?</strong> __________________________________________________________________________________________ * <strong>Apa penjelasan lain (alternatif asumsi) yang masuk akal namun belum saya periksa?</strong> __________________________________________________________________________________________ * <strong>Faktor apa dalam situasi ini yang berada di bawah kendali saya langsung?</strong> __________________________________________________________________________________________</p>
+<ul>
+<li><p><strong>Apa fakta yang benar-benar telah terbukti?</strong> Saat SMA saya memang lebih sering menghindari kegiatan baru karena pemalu. Setelah masuk ITB, saya memiliki banyak kesempatan untuk mengikuti UKM, organisasi, dan kepanitiaan. Saya juga sudah mulai mengikuti beberapa kegiatan tersebut. Belum ada bukti bahwa orang lain menganggap saya sok, aneh, atau tidak cocok hanya karena saya mencoba ikut.</p></li>
+<li><p><strong>Apa penjelasan lain (alternatif asumsi) yang masuk akal namun belum saya periksa?</strong> Bisa jadi orang lain sebenarnya tidak terlalu memperhatikan saya seperti yang saya pikirkan. Bisa juga orang lain justru melihat saya sebagai orang yang mau mencoba dan beradaptasi dengan lingkungan baru. Selain itu, rasa tidak cocok di awal belum tentu berarti saya benar-benar tidak cocok dengan kegiatan atau orang-orang di dalamnya.</p></li>
+<li><p><strong>Faktor apa dalam situasi ini yang berada di bawah kendali saya langsung?</strong> Saya dapat memilih kegiatan yang ingin saya ikuti, memutuskan untuk mencoba meskipun masih merasa canggung, mengatur cara saya berinteraksi dengan orang lain, dan mengevaluasi pengalaman setelah mengikutinya.</p></li>
+</ul>
 </section>
 <section id="versi-c-narasi-pertumbuhan-growth-narrative" class="level3">
 <h3 class="anchored" data-anchor-id="versi-c-narasi-pertumbuhan-growth-narrative"><strong>Versi C: Narasi Pertumbuhan (Growth Narrative)</strong></h3>
-<p><em>Gunakan kacamata belas kasih (</em>compassion<em>) dan pola pikir bertumbuh (</em>growth mindset<em>). Akui bahwa situasinya sulit dan emosi Anda valid, namun arahkan batin Anda untuk menemukan hikmah/pelajaran serta memilih tindakan yang selaras dengan nilai jangka panjang Anda [13, 151, 157].</em> * <strong>Isi Narasi Pertumbuhan Anda:</strong> __________________________________________________________________________________________ __________________________________________________________________________________________ * <strong>Pelajaran apa yang dapat saya ambil dari situasi ini?</strong> __________________________________________________________________________________________</p>
+<ul>
+<li><p><strong>Isi Narasi Pertumbuhan Anda:</strong> Rasa malu dan canggung ketika masuk ke lingkungan baru memang masih saya rasakan, tetapi itu tidak berarti saya harus selalu menghindari kesempatan baru. Saya sudah mengalami perubahan dari yang sebelumnya lebih tertutup dan takut mencoba menjadi lebih terbuka untuk mengikuti UKM, organisasi, dan kepanitiaan di ITB. Saya tidak harus langsung merasa nyaman atau cocok dengan semua lingkungan. Saya bisa mencoba terlebih dahulu, belajar dari pengalaman, dan menyesuaikan diri secara bertahap.</p></li>
+<li><p><strong>Pelajaran apa yang dapat saya ambil dari situasi ini?</strong> Saya belajar bahwa kekhawatiran tentang penilaian orang lain belum tentu sesuai dengan kenyataan. Mencoba sesuatu yang baru tidak berarti saya sedang mencari perhatian atau terlihat sok. Saya juga belajar bahwa rasa canggung dapat tetap ada tanpa harus menentukan tindakan yang saya pilih.</p></li>
+</ul>
 <hr>
 </section>
 </section>
@@ -287,22 +256,25 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="bagian-3-merancang-respons-action-support"><strong>Bagian 3: Merancang Respons (Action &amp; Support)</strong></h2>
 <section id="pilihan-respons-terbaik" class="level3">
 <h3 class="anchored" data-anchor-id="pilihan-respons-terbaik"><strong>1. Pilihan Respons Terbaik</strong></h3>
-<p><em>Berdasarkan Narasi Pertumbuhan Anda, tuliskan tindakan kecil, konkret, dan asertif yang akan Anda lakukan sekarang untuk merespons situasi tersebut [13, 157, 158].</em> * <strong>Langkah nyata yang saya pilih:</strong> __________________________________________________________________________________________ __________________________________________________________________________________________</p>
+<ul>
+<li><strong>Langkah nyata yang saya pilih:</strong> Ketika ada kesempatan mengikuti kegiatan yang memang saya minati, saya akan mencoba mendaftar atau mengikutinya meskipun masih merasa canggung. Saya akan memberi diri saya kesempatan untuk mengenal lingkungan dan orang-orangnya terlebih dahulu sebelum menyimpulkan bahwa saya tidak cocok. Setelah mengikuti kegiatan tersebut, saya akan mengevaluasi pengalaman berdasarkan apa yang benar-benar terjadi, bukan hanya berdasarkan kekhawatiran saya sebelumnya.</li>
+</ul>
 </section>
 <section id="dukungan-yang-diperlukan" class="level3">
 <h3 class="anchored" data-anchor-id="dukungan-yang-diperlukan"><strong>2. Dukungan yang Diperlukan</strong></h3>
-<p><em>Siapa orang tepercaya (teman, keluarga, dosen) yang dapat Anda mintai umpan balik jujur atau bantuan untuk mendampingi Anda menjalankan pilihan ini? [13, 158]</em> * <strong>Nama rekan/pendamping:</strong> ______________________________________________________________</p>
+<ul>
+<li><strong>Nama rekan/pendamping:</strong> Teman dekat yang cukup mengenal saya dan dapat memberikan feedback jujur mengenai perubahan saya dalam berkomunikasi dan beradaptasi dengan lingkungan baru.</li>
+</ul>
 <hr>
 </section>
 </section>
 <section id="panduan-evaluasi-mandiri-rubrik-portofolio" class="level2">
 <h2 class="anchored" data-anchor-id="panduan-evaluasi-mandiri-rubrik-portofolio"><strong>Panduan Evaluasi Mandiri (Rubrik Portofolio)</strong></h2>
-<p>Simpan lembar kerja ini ke dalam <strong>Portofolio Komunikasi</strong> Anda [3, 134]. Evaluasi kualitas pengerjaan Anda menggunakan kriteria berikut sebelum diserahkan kepada dosen [13, 159]:</p>
 <ol type="1">
-<li><strong>Pemisahan Fakta vs Cerita:</strong> Apakah fakta yang Anda tulis di Bagian 1 benar-benar bebas dari asumsi, penilaian moral, dan dramatisasi? [13, 159]</li>
-<li><strong>Kekayaan Alternatif:</strong> Apakah Narasi Analitis Anda berhasil menawarkan minimal 2 alternatif penjelasan rasional yang berbeda dari interpretasi pertama Anda? [13, 159]</li>
-<li><strong>Kematangan Emosional:</strong> Apakah emosi Anda diakui secara jujur tanpa dikuasai sepenuhnya oleh reaksi impulsif batin? [13, 159]</li>
-<li><strong>Kepemilikan Tindakan:</strong> Apakah tindakan akhir yang Anda pilih di Bagian 3 bersifat spesifik, realistis, dan berorientasi pada penyelesaian masalah, bukan sekadar menghindari ketidaknyamanan? [13, 159]</li>
+<li><p><strong>Pemisahan Fakta vs Cerita:</strong> Fakta saya berusaha ditulis berdasarkan pengalaman yang benar-benar terjadi, sedangkan anggapan bahwa orang lain akan menganggap saya sok atau aneh ditempatkan sebagai interpretasi, bukan fakta.</p></li>
+<li><p><strong>Kekayaan Alternatif:</strong> Narasi analitis memberikan beberapa kemungkinan lain, yaitu orang lain mungkin tidak terlalu memperhatikan saya, mungkin melihat saya sebagai orang yang mau mencoba, dan rasa tidak cocok di awal belum tentu berarti saya benar-benar tidak cocok.</p></li>
+<li><p><strong>Kematangan Emosional:</strong> Saya mengakui rasa ragu, malu, dan canggung yang muncul tanpa menjadikan emosi tersebut sebagai alasan untuk selalu menghindari kegiatan baru.</p></li>
+<li><p><strong>Kepemilikan Tindakan:</strong> Tindakan yang saya pilih adalah mencoba mengikuti kegiatan yang saya minati, mengevaluasi pengalaman berdasarkan kejadian nyata, dan menyesuaikan diri secara bertahap.</p></li>
 </ol>
 
 
