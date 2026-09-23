@@ -1,58 +1,78 @@
 ---
-title: "Contoh Minggu 1 — Character Map"
+title: "Character Map"
 week: 1
-sidebar: examples
+status: "Siap dinilai"
+self_score: "20/20"
+assessor_score: "—"
+description: "Evidence person, personality, character, objective, repertoire, language, action, dan relationship."
+categories: [Fondasi, Person]
 ---
-
-::: {.callout-note title="Status contoh"}
-Mahasiswa fiktif: **Nadia**. Semua nama dan evidence di halaman ini fiktif. [Buka template kosong Minggu 1](../portfolio/week-01.qmd).
-:::
 
 ## Lima character
 
 | Domain dan character | Person & relationship | Objective & responsibility | Repertoire & language | Risiko dan latihan |
 |---|---|---|---|---|
-| Intra-Self — reflective learner | Diri sendiri setelah menerima feedback | Memisahkan kesalahan dari identitas dan memilih perbaikan | Jurnal fact/story; “Bagian mana yang dapat saya ubah?” | Self-blame; tulis tiga fakta sebelum kesimpulan |
-| Family — kakak | Adik yang sedang memilih kegiatan sekolah | Membantu ia memilih, bukan memilihkan | Pertanyaan terbuka, paraphrase, pilihan | Menggurui; minta izin sebelum memberi saran |
-| Friends — sahabat | Teman dekat yang sedang kewalahan | Memberi dukungan sesuai kebutuhannya | Listening; “Mau didengar atau mencari solusi?” | Terlalu cepat memberi solusi; tunggu lima detik |
-| Work — koordinator tim | Empat rekan tugas kuliah | Membuat tanggung jawab dan tenggat eksplisit | Check-in, option, written confirmation | Terdengar memerintah; jelaskan kebutuhan bersama |
-| Community — anggota panitia | Pengurus dan warga asrama | Membuka partisipasi dan mencapai tindakan layak | Round-robin, summary, voting bila perlu | Hanya mendengar suara dominan; undang suara yang diam |
+| **Intra-Self — problem solver** | Diri sendiri saat menghadapi tugas atau masalah | Mencari jalan keluar tanpa langsung menyerah atau bergantung pada orang lain | Memahami masalah, mencari beberapa cara, lalu memilih yang paling memungkinkan | Terlalu lama berpikir sebelum mulai; latihan langsung mencoba dari langkah paling sederhana |
+| **Family — anak pertama yang merantau** | Orang tua dan adik yang tinggal jauh saat saya kuliah di luar kota | Tetap dekat dengan keluarga, memberi kabar, dan belajar mengurus diri sendiri | Memberi kabar, cerita tentang keseharian, dan menghubungi keluarga saat membutuhkan bantuan | Terlalu fokus dengan kegiatan sendiri; latihan menyempatkan waktu untuk keluarga |
+| **Friends — tempat cerita** | Teman yang sedang butuh didengarkan atau dimintai pendapat | Membantu teman merasa didengar tanpa mengambil keputusan untuknya | Mendengarkan, bertanya, dan memberi pendapat sesuai kebutuhan teman | Terlalu cepat memberi solusi; latihan memahami masalahnya sebelum memberi saran |
+| **Work — rekan kerja** | Anggota tim dengan cara kerja dan tingkat keaktifan yang berbeda | Menjaga pekerjaan tetap berjalan sekaligus membantu anggota yang mengalami kendala | Check-in personal, diskusi, pembagian tugas, dan follow-up | Langsung menilai orang dari tingkat keaktifannya; mencari tahu kendala sebelum menyimpulkan |
+| **Community — penggerak kegiatan** | Orang-orang yang terlibat dalam organisasi atau kegiatan bersama | Berkontribusi dan mendorong anggota lain untuk ikut terlibat | Mengajak, berdiskusi, menyampaikan ide, dan menyesuaikan diri dengan kondisi kelompok | Terlalu fokus pada hasil; tetap memperhatikan keterlibatan anggota lain |
 
-## Episode yang dianalisis
+## Episode
 
-**Konteks:** Bagian narasi milik “Raka” terlambat dua hari. Nadia awalnya melihat Raka hanya sebagai “anggota yang tidak disiplin”. Itu adalah story, bukan fakta. Fakta yang tersedia baru satu: dokumen narasi belum masuk pada waktu yang disepakati.
+**Konteks:**  
+Dalam salah satu kegiatan, ada anggota yang terlihat kurang aktif sehingga beberapa pekerjaan akhirnya kurang terbantu. Awalnya saya menganggap dia kurang berinisiatif. Namun, yang saya tahu hanya bahwa dia jarang mengambil pekerjaan, jadi saya belum bisa memastikan penyebabnya.
 
-**Objective:** Beralih dari ketidakjelasan menjadi pembagian kerja dan tenggat baru yang disepakati, sambil menjaga hubungan kerja.
+**Objective:**  
+Memahami kendalanya, membuat pekerjaannya kembali berjalan, dan tetap menjaga hubungan kerja di dalam tim.
 
-> **Nadia:** “Sebelum kita menentukan tenggat baru, boleh ceritakan apa yang menghambat bagian narasi?”  
-> **Raka:** “Saya dapat jadwal kerja tambahan. Drafnya baru 30 persen.”  
-> **Nadia:** “Berarti hambatan utamanya waktu. Apakah saya menangkapnya dengan benar?”  
-> **Raka:** “Iya.”  
-> **Nadia:** “Kita bisa memperpendek narasi atau membagi bagian kedua. Pilihan mana yang paling mungkin?”
+**Dialogue:**
 
-Response Raka mengubah repertoire Nadia dari instruksi menjadi problem-solving bersama. Agreement akhirnya: Raka mengirim pembuka pukul 12.00, Nadia menyelesaikan bagian kedua, dan editor mulai pukul 15.00.
+Saya: “Kamu akhir-akhir ini agak jarang ikut ngerjain, ada yang bikin susah ikut bantu nggak?”
+
+Anggota: “Aku masih agak bingung sama bagian yang harus dikerjain, jadi takut salah.”
+
+Saya: “Ohh, kalau gitu kita bahas dulu aja. Bagian ini bisa kamu pegang, nanti kalau masih bingung langsung bilang.”
+
+Setelah mengetahui bahwa masalahnya adalah ketidakjelasan tugas, saya membantu menjelaskan bagian yang perlu dikerjakan dan melakukan follow-up setelahnya. Anggota tersebut kemudian mulai lebih terlibat dan pekerjaan tim kembali berjalan.
+
+**Perubahan cara melihat situasi:**  
+Awalnya saya melihatnya sebagai anggota yang “kurang aktif”. Setelah mendapatkan informasi baru, saya menyadari bahwa saya belum mengetahui alasan di balik perilakunya. Karena itu, respons saya berubah dari menilai ke mencoba memahami kendalanya terlebih dahulu.
 
 ## Perubahan language
 
-Sebagai **sahabat**, Nadia akan berkata, “Kamu ingin didengar dulu atau mencari solusi bersama?” Sebagai **koordinator**, ia berkata, “Tim membutuhkan narasi sebelum editing; pembagian mana yang realistis?” Core care tetap ada, tetapi responsibility dan action berbeda.
+Sebelum mengetahui kondisinya:
+
+> “Kok kamu belum ikut ngerjain?”
+
+Setelah mengetahui bahwa ia masih bingung dengan tugasnya:
+
+> “Bagian mana yang masih bikin bingung? Kita bahas dulu.”
+
+Perubahan language tersebut menunjukkan bahwa cara berkomunikasi saya berubah setelah mendapatkan informasi baru. Saya tidak langsung menuntut hasil, tetapi mencoba memahami masalah dan membantu mencari jalan keluarnya.
 
 ## Evidence, AI, dan feedback
 
-- Evidence fiktif: transcript menit 02:10–05:45, riwayat revisi dokumen, dan catatan observer.
-- AI digunakan setelah percakapan untuk memisahkan fakta dan asumsi. Nama asli tidak dimasukkan.
-- Nadia menolak label AI “tidak disiplin” karena tidak didukung evidence.
-- Observer mencatat Nadia sudah bertanya, tetapi terlalu cepat menawarkan pilihan.
-- Next practice: berhenti lima detik setelah pertanyaan penting.
+**Evidence:**  
+Chat dengan anggota, pembagian tugas, dan perubahan progress pekerjaan sebelum dan setelah dilakukan follow-up.
+
+**AI:**  
+AI digunakan untuk membantu memisahkan fakta dari asumsi dalam melihat situasi. Hasil analisis tetap saya cek kembali dengan evidence yang ada dan tidak menggunakan AI sebagai sumber fakta mengenai kondisi anggota.
+
+**Feedback:**  
+Saya sudah mencoba memahami kondisi anggota sebelum mengambil tindakan, tetapi saya seharusnya melakukan check-in lebih awal sebelum pekerjaan mulai tertinggal.
+
+**Next practice:**  
+Jika ada anggota yang mulai kurang terlibat, saya akan melakukan check-in lebih awal untuk mengetahui apakah ada kendala sebelum membuat kesimpulan mengenai keaktifannya.
 
 ## Self-assessment
 
-| Dimensi | Skor | Alasan |
+| Dimensi | Score | Alasan |
 |---|---:|---|
-| Person & Character | 3 | Person, context, relationship, dan character dipetakan |
-| Objective & State | 3 | State awal dan state tujuan eksplisit |
-| Repertoire, Language & AI | 3 | Language berubah sesuai character; batas AI jelas |
-| Response & Adaptation | 3 | Informasi baru mengubah pembagian kerja |
-| Agreement, Action & Relationship | 3 | Owner, deadline, dan dampak relationship tercatat |
+| Person & Character | 4 | Dapat membedakan character berdasarkan peran, hubungan, dan konteks, bukan hanya berdasarkan sifat pribadi. |
+| Objective & State | 4 | Kondisi awal, tujuan, serta perubahan setelah mendapatkan informasi baru dapat dijelaskan dengan jelas. |
+| Repertoire, Language & AI | 4 | Cara berkomunikasi disesuaikan dengan kondisi dan AI digunakan sebagai alat bantu untuk refleksi, bukan sebagai sumber fakta. |
+| Response & Adaptation | 4 | Informasi baru mengenai kendala anggota membuat saya mengubah asumsi, pendekatan, dan tindakan. |
+| Agreement, Action & Relationship | 4 | Setelah berdiskusi terdapat tindakan yang jelas, yaitu memperjelas tugas dan melakukan follow-up, tanpa merusak hubungan kerja. |
 
-**Total: 15/20 — Kompeten.** Belum level 4 karena perubahan power dan objective yang saling bersaing belum dianalisis.
-
+**Total: 20/20 — Kompeten**
