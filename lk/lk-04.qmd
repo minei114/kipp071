@@ -18,10 +18,10 @@ Dalam tugas ini, Anda ditantang untuk melatih **kelenturan register dan alih rag
 ---
 
 ## **B. Identitas Mahasiswa**
-*   **Nama Lengkap:** ______________________________________
+*   **Nama Lengkap:** Michelle
 *   **NIM:** ______________________________________
-*   **Program Studi:** ______________________________________
-*   **Tanggal Pengisian:** ______________________________________
+*   **Program Studi:** Sistem dan Teknologi Informasi
+*   **Tanggal Pengisian:** 24 September 2026
 
 ---
 
@@ -32,20 +32,26 @@ Sebelum membagikan gagasan Anda, Anda harus mengupas kulit jargon untuk menemuka
    *(Contoh: Enkripsi Kunci Publik, Inflasi Moneter, Replikasi Database, Fotosintesis, dll.)*
    *Jawab:*
    
+   **Head-of-Line (HOL) Blocking pada HTTP/2**
+
 2. **Definisi Teknis Awal (Versi Buku Teks / Jurnal Ilmiah):**
    *(Tuliskan definisi asli lengkap dengan jargon teknisnya)*
    *Jawab:*
    
+   **Head-of-Line (HOL) Blocking pada HTTP/2 adalah kondisi ketika sebuah stream atau paket yang mengalami keterlambatan atau kehilangan menyebabkan data lain yang berada di belakangnya harus menunggu sebelum dapat diproses, sehingga dapat menurunkan efisiensi komunikasi meskipun data lain sebenarnya sudah tersedia. Pada HTTP/2, multiplexing memungkinkan beberapa stream dikirim melalui satu koneksi TCP, tetapi karena TCP menjamin pengiriman data secara berurutan dan melakukan retransmisi terhadap data yang hilang, kehilangan paket pada koneksi tersebut dapat menyebabkan data dari stream lain ikut tertahan.**
+
 3. **Daftar Jargon Teknis & Artian Sederhananya:**
    *Identifikasi minimal 3 istilah rumit dari definisi di atas dan terjemahkan maknanya secara mandiri.*
-   *   **Jargon 1:** `_______________` $\rightarrow$ Arti Sederhana: ____________________
-   *   **Jargon 2:** `_______________` $\rightarrow$ Arti Sederhana: ____________________
-   *   **Jargon 3:** `_______________` $\rightarrow$ Arti Sederhana: ____________________
+   *   **Jargon 1:** `Multiplexing` $\rightarrow$ Arti Sederhana: **Mengirim beberapa aliran data melalui satu koneksi secara bersamaan.**
+   *   **Jargon 2:** `Stream` $\rightarrow$ Arti Sederhana: **Aliran komunikasi untuk satu bagian atau permintaan data tertentu.**
+   *   **Jargon 3:** `Retransmisi` $\rightarrow$ Arti Sederhana: **Mengirim ulang data yang gagal atau hilang saat dikirim.**
 
 4. **Kebenaran Inti (*Marrow of the Message*):**
    *(Tuliskan 1 kalimat sangat sederhana yang merangkum apa sebenarnya esensi atau manfaat utama dari konsep ini bagi kehidupan manusia)*
    *Jawab:*
    
+   **Kalau satu bagian data bermasalah, bagian lain yang sebenarnya sudah siap diterima bisa ikut tertahan.**
+
 ---
 
 ## **D. Tahap 2: Matriks Terjemahan Lima Bahasa**
@@ -56,31 +62,35 @@ Sekarang, bawa kebenaran inti di atas menggunakan "kendaraan" bahasa yang sesuai
 *   **Strategi:** Gunakan **analogi fisik atau cerita** yang sangat akrab di dunia mereka (seperti mainan, sekolah, atau hewan).
 *   *Draf Terjemahan Anda:*
    
-   
+   **Bayangin kamu lagi antre beli makanan di kantin. Ada banyak anak yang mau beli makanan, tapi anak paling depan tiba-tiba berhenti karena uangnya jatuh. Anak-anak di belakangnya sebenarnya sudah siap membayar, tapi mereka tetap harus menunggu karena antreannya cuma satu. Nah, di internet juga bisa begitu. Kalau ada satu data yang bermasalah di depan, data lain yang sudah siap bisa ikut tertahan.**
+
 ### **2. Ragam Bahasa: Sahabat (Beda Bidang / Program Studi)**
 *   **Karakteristik Pendengar:** Setara dengan Anda secara usia, tetapi tidak memiliki latar belakang keilmuan yang sama. Mereka ingin mengobrol dengan santai tanpa merasa digurui.
 *   **Strategi:** Gunakan gaya bahasa informal, hangat, akrab, dan bersihkan dari istilah akademis yang kaku.
 *   *Draf Terjemahan Anda:*
    
-   
+   **Jadi gini, di HTTP/2 itu sebenarnya beberapa data bisa dikirim barengan lewat satu koneksi biar lebih efisien. Masalahnya, kalau ada satu paket data yang hilang atau telat, data lain yang sebenarnya udah siap bisa ikut nunggu. Ibaratnya kayak kamu lagi kirim beberapa barang lewat satu jalur, tapi satu barang nyangkut dan akhirnya yang lain ikut ketahan. Itu yang disebut HOL blocking.**
+
 ### **3. Ragam Bahasa: Rekan Teknis (Sesama Ahli / Mahasiswa Sejurusan)**
 *   **Karakteristik Pendengar:** Rekan sejawat yang menuntut efisiensi, akurasi tinggi, serta pembuktian logis atau matematis.
 *   **Strategi:** Gunakan jargon teknis yang presisi, singkatan standar industri, parameter spesifik, dan data pendukung.
 *   *Draf Terjemahan Anda:*
    
-   
+   **HTTP/2 menggunakan multiplexing untuk membawa multiple streams melalui satu koneksi TCP. Namun, karena TCP menyediakan reliable, in-order byte-stream delivery, packet loss pada satu koneksi dapat memicu retransmission dan menyebabkan data setelah segmen yang hilang tertahan. Akibatnya, stream lain yang secara logis tidak mengalami masalah tetap dapat terdampak oleh packet loss pada koneksi yang sama. Fenomena ini dikenal sebagai transport-layer Head-of-Line (HOL) blocking.**
+
 ### **4. Ragam Bahasa: Manajer atau Pengambil Keputusan (Aspek Bisnis)**
 *   **Karakteristik Pendengar:** Berorientasi pada hasil, efisiensi alokasi sumber daya (waktu, tenaga, biaya), manajemen risiko, dan dampak terhadap tujuan organisasi.
 *   **Strategi:** Tekankan **nilai tambah (*value proposition*)**, biaya (*cost*), efisiensi, serta konsekuensi logis jika gagasan ini diterapkan atau diabaikan.
 *   *Draf Terjemahan Anda:*
    
-   
+   **HTTP/2 dirancang agar pengiriman data lebih efisien dengan menggunakan satu koneksi untuk beberapa kebutuhan sekaligus. Namun, ketika terjadi kehilangan paket, beberapa data yang tidak bermasalah dapat ikut mengalami keterlambatan karena harus menunggu proses pengiriman ulang. Dalam aplikasi yang membutuhkan respons cepat, kondisi ini dapat berdampak pada waktu tunggu pengguna dan performa layanan. Karena itu, pemilihan teknologi komunikasi perlu mempertimbangkan bagaimana sistem menangani kehilangan paket dan kebutuhan performa aplikasi.**
+
 ### **5. Ragam Bahasa: Publik Umum (Masyarakat Luas)**
 *   **Karakteristik Pendengar:** Masyarakat heterogen yang ingin mengetahui apa dampak langsung atau tidak langsung dari teknologi/konsep ini bagi keselamatan, kemaslahatan, dompet, atau kehidupan sehari-hari mereka.
 *   **Strategi:** Hubungkan konsep dengan nilai-nilai sosial, keadilan, keamanan, kemudahan hidup, dan gunakan bahasa yang inklusif serta mudah dipahami seketika.
 *   *Draf Terjemahan Anda:*
    
-   
+   **Saat kita membuka website atau menggunakan aplikasi, banyak data sebenarnya sedang dikirim dalam waktu yang hampir bersamaan. Agar prosesnya efisien, beberapa data bisa menggunakan satu jalur komunikasi. Tetapi kalau ada satu bagian data yang terlambat atau hilang, bagian lain yang sudah siap juga bisa ikut menunggu. Akibatnya, halaman atau aplikasi bisa terasa lebih lambat bagi pengguna.**
 
 ---
 
@@ -90,13 +100,18 @@ Sekarang, bawa kebenaran inti di atas menggunakan "kendaraan" bahasa yang sesuai
 1. **Ragam bahasa mana yang paling sulit Anda buat? Mengapa?**
    *Jawab:*
    
+   **Ragam bahasa rekan teknis paling sulit bagi saya karena saya harus menjaga agar penjelasannya tetap akurat dan menggunakan istilah yang tepat, tetapi tidak boleh sampai ada konsep yang keliru hanya karena ingin membuatnya lebih singkat. Saya lebih terbiasa menjelaskan sesuatu dengan bahasa yang sederhana, sehingga menuliskan versi yang teknis dan tetap efisien membutuhkan perhatian lebih terhadap istilah yang digunakan.**
+
 2. **Bagaimana proses dekonstruksi jargon ini mengubah cara Anda memandang keilmuan Anda sendiri?**
    *Jawab:*
    
+   **Saya jadi menyadari bahwa memahami suatu konsep tidak hanya berarti bisa menyebutkan istilah atau menghafal definisinya. Saya juga harus bisa menjelaskan konsep yang sama kepada orang dengan latar belakang yang berbeda. Sebelumnya saya cenderung menganggap istilah teknis sebagai bagian utama dari penjelasan, tetapi setelah melakukan latihan ini saya melihat bahwa yang lebih penting adalah memastikan orang lain memahami makna yang ingin disampaikan.**
+
 3. **Catatan Penggunaan AI Kopilot (Jika Ada):**
    *Jika Anda menggunakan AI untuk menguji kelenturan bahasa Anda (misal: meminta AI berperan sebagai anak berusia 10 tahun untuk mengkritik draf Anda), tuliskan instruksi/prompt yang Anda gunakan dan umpan balik berharga apa yang diberikan AI.*
    *Jawab:*
    
+   **Saya menggunakan AI sebagai kopilot untuk membantu mengecek apakah konsep yang sama sudah disampaikan dengan gaya bahasa yang sesuai untuk masing-masing audiens. Prompt yang digunakan adalah: "Bantu saya mengecek lima versi penjelasan tentang Head-of-Line Blocking pada HTTP/2 untuk anak usia 10 tahun, teman beda jurusan, mahasiswa sejurusan, manajer, dan masyarakat umum. Pastikan bahasanya sesuai dengan masing-masing audiens tanpa mengubah makna teknisnya." Umpan balik yang saya dapatkan adalah bahwa versi untuk audiens nonteknis sebaiknya lebih banyak menggunakan contoh yang dekat dengan kehidupan sehari-hari, sedangkan versi teknis perlu mempertahankan istilah seperti multiplexing, TCP, retransmission, dan in-order delivery agar tetap akurat.**
 
 ---
 
@@ -105,11 +120,11 @@ Gunakan rubrik ini untuk menguji kualitas draf Anda sebelum dimasukkan ke dalam 
 
 | Kriteria | Skor 4 (Sangat Baik) | Skor 3 (Baik) | Skor 2 (Cukup) | Skor 1 (Kurang) | Skor Mandiri |
 | :--- | :--- | :--- | :--- | :--- | :---: |
-| **Keutuhan Makna** *(Fidelity)* | Makna inti konsep sama sekali tidak terdistorsi atau berganti di kelima versi bahasa. | Makna inti terjaga di sebagian besar versi, hanya ada sedikit penyederhanaan yang agak melenceng di versi anak-anak. | Makna inti mulai bergeser di beberapa ragam bahasa demi mengejar kemudahan bahasa. | Makna inti rusak atau berubah total di berbagai ragam bahasa. | |
-| **Kelenturan Register** *(Code-switching)* | Perbedaan gaya bahasa di antara kelima audiens sangat kontras, konsisten, dan sangat sesuai dengan profil masing-masing. | Perbedaan gaya bahasa terlihat jelas, namun ada beberapa kata/gaya yang masih tumpang tindih antar-audiens. | Gaya bahasa terasa seragam; perbedaan antar-audiens hanya terlihat kosmetis (misal sekadar mengubah sapaan). | Tidak ada upaya menyesuaikan gaya bahasa; semua audiens disuapi dengan gaya bahasa yang sama. | |
-| **Kualitas Analogi & Penjelasan** | Analogi yang digunakan sangat kreatif, segar, akurat, dan langsung membuat konsep mudah dipahami seketika. | Analogi yang digunakan cukup baik dan relevan, meski masih butuh sedikit penjelasan tambahan untuk memperjelasnya. | Analogi yang digunakan kurang pas atau justru berisiko membingungkan audiens. | Tidak menggunakan analogi sama sekali pada ragam bahasa yang membutuhkan (Anak/Publik). | |
-| **Kedalaman Refleksi** | Refleksi sangat jujur, mendalam, mampu mengidentifikasi bias batin diri, dan merumuskan sasaran pertumbuhan yang jelas. | Refleksi cukup deskriptif dalam menceritakan kesulitan, namun belum menggali alasan personal di balik kesulitan tersebut. | Refleksi sangat singkat, bersifat normatif, dan tidak memberikan wawasan baru bagi perkembangan diri Anda. | Bagian refleksi tidak diisi atau hanya diisi sekadarnya (kurang dari 2 kalimat). | |
-| **Total Skor (Maksimal 16)** | | | | | **___ / 16** |
+| **Keutuhan Makna** *(Fidelity)* | Makna inti konsep sama sekali tidak terdistorsi atau berganti di kelima versi bahasa. | Makna inti terjaga di sebagian besar versi, hanya ada sedikit penyederhanaan yang agak melenceng di versi anak-anak. | Makna inti mulai bergeser di beberapa ragam bahasa demi mengejar kemudahan bahasa. | Makna inti rusak atau berubah total di berbagai ragam bahasa. | **4** |
+| **Kelenturan Register** *(Code-switching)* | Perbedaan gaya bahasa di antara kelima audiens sangat kontras, konsisten, dan sangat sesuai dengan profil masing-masing. | Perbedaan gaya bahasa terlihat jelas, namun ada beberapa kata/gaya yang masih tumpang tindih antar-audiens. | Gaya bahasa terasa seragam; perbedaan antar-audiens hanya terlihat kosmetis (misal sekadar mengubah sapaan). | Tidak ada upaya menyesuaikan gaya bahasa; semua audiens disuapi dengan gaya bahasa yang sama. | **4** |
+| **Kualitas Analogi & Penjelasan** | Analogi yang digunakan sangat kreatif, segar, akurat, dan langsung membuat konsep mudah dipahami seketika. | Analogi yang digunakan cukup baik dan relevan, meski masih butuh sedikit penjelasan tambahan untuk memperjelasnya. | Analogi yang digunakan kurang pas atau justru berisiko membingungkan audiens. | Tidak menggunakan analogi sama sekali pada ragam bahasa yang membutuhkan (Anak/Publik). | **4** |
+| **Kedalaman Refleksi** | Refleksi sangat jujur, mendalam, mampu mengidentifikasi bias batin diri, dan merumuskan sasaran pertumbuhan yang jelas. | Refleksi cukup deskriptif dalam menceritakan kesulitan, namun belum menggali alasan personal di balik kesulitan tersebut. | Refleksi sangat singkat, bersifat normatif, dan tidak memberikan wawasan baru bagi perkembangan diri Anda. | Bagian refleksi tidak diisi atau hanya diisi sekadarnya (kurang dari 2 kalimat). | **4** |
+| **Total Skor (Maksimal 16)** | | | | | **16 / 16** |
 
 ---
 
