@@ -18,8 +18,8 @@ Dalam tugas ini, Anda ditantang untuk melatih **kelenturan register dan alih rag
 ---
 
 ## **B. Identitas Mahasiswa**
-*   **Nama Lengkap:** Michelle
-*   **NIM:** ______________________________________
+*   **Nama Lengkap:** Michelle Nataneilla
+*   **NIM:** 18225071
 *   **Program Studi:** Sistem dan Teknologi Informasi
 *   **Tanggal Pengisian:** 24 September 2026
 
